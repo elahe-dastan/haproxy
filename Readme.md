@@ -18,5 +18,5 @@ then we need haproxy itself, I use docker-compose to run it<br/><br/>
 Haproxy needs a config file called haproxy.cfg that I show later, the point I want to mention in here is that since<br/>
 I have used docker-compose to run haproxy I vae to mount the haproxy.cfg file as shown in the screenshot
 
-Here is my haproxy.cfg haproxy.cfg<br/><br/>
+Here is my haproxy.cfg file<br/><br/>
 ![](image/haproxy.png)
