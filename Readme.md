@@ -1,3 +1,4 @@
+[![Build Status](https://cloud.drone.io/api/badges/elahe-dastan/haproxy/status.svg)](https://cloud.drone.io/elahe-dastan/haproxy)
 # haproxy
 I have had a repository for learning and practicing 'nats' then I started thinking about what the difference is<br/>
 between different technologies for load balancing.The biggest difference is that technologies like 'nats' and<br/>
