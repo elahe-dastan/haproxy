@@ -12,10 +12,11 @@ My code creates an endpoint and with every get request it just sleeps 5 seconds 
 ![](image/echo.png)
 
 ![](image/handler.png)<br/><br/>
-then we need haproxy, I use docker-compose to run it<br/><br/>
+then we need haproxy itself, I use docker-compose to run it<br/><br/>
 ![](image/docker-compose.png)
 
-// volume
+Haproxy needs a config file called haproxy.cfg that I show later, the point I want to mention in here is that since<br/>
+I have used docker-compose to run haproxy I vae to mount the haproxy.cfg file as shown in the screenshot
 
-//haproxy.cfg
+Here is my haproxy.cfg haproxy.cfg
 ![](image/haproxy.png)
