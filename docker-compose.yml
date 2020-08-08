@@ -3,5 +3,7 @@ version: '3'
 services:
   haproxy:
     image: haproxy
+    volumes:
+    - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
     ports:
-    - '80:80'
+    - '1373:80'
