@@ -8,7 +8,8 @@ import (
 )
 
 func Handle(c echo.Context) error {
-	time.Sleep(5 * time.Second)
+	sd := 5
+	time.Sleep(time.Duration(sd) * time.Second)
 
-	return c.JSON(http.StatusOK, "hi " + os.Args[1])
+	return c.JSON(http.StatusOK, "hi "+os.Args[1])
 }
