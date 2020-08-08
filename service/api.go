@@ -2,6 +2,7 @@ package service
 
 import (
 	"github.com/labstack/echo/v4"
+	"haproxy/handler"
 	"log"
 	"os"
 )
@@ -9,7 +10,7 @@ import (
 func Run() {
 	e := echo.New()
 
-	e.GET("/", handler)
+	e.GET("/", handler.Handle)
 
 	if len(os.Args) < 2 {
 		log.Fatal("enter the port")
