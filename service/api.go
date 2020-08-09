@@ -1,10 +1,11 @@
 package service
 
 import (
-	"github.com/labstack/echo/v4"
 	"haproxy/handler"
 	"log"
 	"os"
+
+	"github.com/labstack/echo/v4"
 )
 
 func Run() {
