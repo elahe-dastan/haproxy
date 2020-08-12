@@ -21,3 +21,5 @@ I have used docker-compose to run haproxy I vae to mount the haproxy.cfg file as
 
 Here is my haproxy.cfg file<br/><br/>
 ![](image/haproxy.png)
+
+Merge Request by [Parham Alvani](https://github.com/1995parham)
